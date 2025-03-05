@@ -4,7 +4,7 @@ load_dotenv(find_dotenv())
 import streamlit as st
 from langchain_groq import ChatGroq
 
-print("GROQ_API_KEY:", os.getenv("GROQ_API_KEY"))
+# print("GROQ_API_KEY:", os.getenv("GROQ_API_KEY"))
 
 # Agora a chave de API é carregada corretamente do .env
 llm = ChatGroq(
